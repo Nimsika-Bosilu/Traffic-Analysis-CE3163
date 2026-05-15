@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific outputs
+output_counted.mp4
+traffic_report.xlsx
+gcp_benchmark.jpg
+
+# Large video files
+*.mp4
+Transport.mp4
