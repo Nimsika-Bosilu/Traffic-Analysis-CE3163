@@ -6,6 +6,30 @@ It uses advanced Artificial Intelligence (YOLOv8) to track vehicles from video f
 
 ---
 
+## 🛠️ Setup & Installation (One-time only)
+
+Before running the program for the first time, you need to set up your environment:
+
+### 1. Create a Virtual Environment
+This keeps the project libraries organized. Open your command prompt in the project folder and run:
+```cmd
+python -m venv .venv
+```
+
+### 2. Install Libraries
+Install the necessary AI and data processing libraries:
+```cmd
+.\.venv\Scripts\pip install -r requirements.txt
+```
+
+### 3. GPU Acceleration (Recommended for NVIDIA RTX users)
+If you have an NVIDIA GPU (like an RTX 3050), run this command for **5-10x faster** processing:
+```cmd
+.\.venv\Scripts\pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124 --upgrade
+```
+
+---
+
 ## 🚀 How to Run the Program (For Non-Technical Users)
 
 You don't need to be a programmer to use this! Just follow these simple steps to run the analysis on your video.
