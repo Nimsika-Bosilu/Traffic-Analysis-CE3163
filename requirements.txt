@@ -1,16 +1,24 @@
-cvzone==1.6.1
-ultralytics>=8.2.0
-hydra-core>=1.3.2
-matplotlib>=3.7.0
-numpy>=1.24.0
+# Core Computer Vision & AI
+ultralytics>=8.1.0
 opencv-python>=4.8.0
+cvzone==1.6.1
+
+# Math & Data Processing
+numpy>=1.24.0
+openpyxl>=3.1.0
+scipy>=1.10.0
+
+# Deep Learning (CPU versions - use the README command for GPU)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Dependencies for BoT-SORT & YOLO
+filterpy==1.4.5
+lap>=0.4.0
+scikit-image>=0.21.0
+matplotlib>=3.7.0
 Pillow>=10.0.0
 PyYAML>=6.0
 requests>=2.31.0
-scipy>=1.10.0
-#torch>=2.0.0
-#torchvision>=0.15.0
 tqdm>=4.65.0
-filterpy==1.4.5
-scikit-image>=0.21.0
-lap>=0.4.0
+hydra-core>=1.3.2
